@@ -1,6 +1,10 @@
 name: deploy-container
 
-on: push
+on:
+  push:
+    branches:
+      - main
+      - master
 
 defaults:
   run:
